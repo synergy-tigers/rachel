@@ -1,0 +1,32 @@
+:root {
+    --dark-blue: #233142;
+    --med-blue: #455d7a;
+    --orange: #f95959;
+    --gray: #e3e3e3;
+}
+
+body {
+    background-color: var(--dark-blue);
+}
+h1 {
+    color: var(--orange);
+    padding: 10px;
+}
+
+p {
+    color: var(--gray);
+    padding: 10px;
+}
+
+li {
+    color: var(--gray);
+}
+
+#vb {
+    width: 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
