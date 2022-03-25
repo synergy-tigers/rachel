@@ -1,0 +1,35 @@
+:root {
+    --dark-blue: #233142;
+    --med-blue: #455d7a;
+    --orange: #f95959;
+    --gray: #e3e3e3;
+}
+
+body {
+    background-color: var(--med-blue);
+}
+
+h1 {
+    color: var(--orange);
+    padding: 10px;
+}
+
+button {
+    background-color: var(--dark-blue);
+    color: var(--gray);
+    border: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+}
+
+ul li {
+    color: var(--grey);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
