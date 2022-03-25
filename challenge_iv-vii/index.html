@@ -9,11 +9,15 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="page-container">
       <h1>List</h1>
       <ul></ul>
-      <button type="button" id="addBtn" onclick="addToList()">Add to List</button>
+      <button type="button" id="addBtn" onclick="addItemFromPrompt()">Add to List</button>
       <button type="button" id="alertList" onclick="printListToAlert()">Show Items in Alert</button>
+      <form id="item-form">
+        <input type="text" id="itemInput" name="itemInput">
+        <button type="button" id="addFromInputBtn" onclick="addItemFromForm()">Add Item</button>
+      </form>
     </div>
   </body>
   
