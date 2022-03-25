@@ -25,3 +25,8 @@ li {
 #vb {
     width: 100px;
 }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
